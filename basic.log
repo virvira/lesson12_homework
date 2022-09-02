@@ -1,0 +1,66 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:14:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:14:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Страница с результатами поиска
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:14:19] "GET /search?s=jjkhi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:14:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:20] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:32] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:32] "[33mGET /uploads/images/k.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:47] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Некорректное расширение файла
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:18:58] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:19:00] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:20:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:20:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:20:19] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:20:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:20:26] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:20:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:20:26] "[33mGET /uploads/images/v.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:20:31] "[33mGET /uploads/images/v.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:40] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:47] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:47] "[33mGET /uploads/images/k.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2022 01:22:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

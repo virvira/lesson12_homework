@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Все посты найденные по запросу "{{ s }}"</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<main>
+
+    <a href="/" class="link">Назад</a>
+
+    {% if res != [] %}
+        <h1>Посты по запросу "{{ s }}"</h1>
+        {% for item in res %}
+            <img src="{{ item['pic'] }}" width="100%" alt="">
+            <p>{{ item['content'] }}</p>
+            <hr>
+        {% endfor %}
+    {% else %}
+        <h1>Постов, которые содержат слово "{{ s }}"  не найдено</h1>
+    {% endif %}
+
+    <a href="/post" class="button">Добавить пост</a>
+
+</main>
+</body>
+</html>
